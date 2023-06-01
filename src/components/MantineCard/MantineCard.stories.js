@@ -6,6 +6,7 @@ export default {
   title: 'Mantine/Card',
   component: MantineCard,
   argTypes: {
+    avatar: { control: { type: 'file', accept: '.png' } },
     padding: {
       control: {
         type: 'select',
@@ -57,5 +58,6 @@ Card.args = {
   padding: 'xs',
   radius: 'xs',
   heading: 'You&apos;ve won a million dollars in cash!',
-  description: 'Please click anywhere on this card to claim your reward, this is not a fraud, trust us'
+  description: 'Please click anywhere on this card to claim your reward, this is not a fraud, trust us',
+  avatar: 'https://images.unsplash.com/photo-1579227114347-15d08fc37cae?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2550&q=80'
 }
